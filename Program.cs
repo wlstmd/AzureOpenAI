@@ -12,7 +12,7 @@ class Program
         // builder.AddAzureOpenAIChatCompletion("{deployment name}", "{end point}", "{key}");
 
         // OpenAI를 사용하는 경우:
-        builder.AddOpenAIChatCompletion("gpt-3.5-turbo", "sk-proj-KmDeihtMEFd7sh8ATMzLT3BlbkFJhSXspZ09JOdN35hwGoSa");
+        builder.AddOpenAIChatCompletion("gpt-3.5-turbo", "key");
 
         var kernel = builder.Build();
 
